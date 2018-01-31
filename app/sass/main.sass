@@ -74,7 +74,7 @@ body
 			font-family: $default-font
 			float: left
 			color: #fff
-			margin-top: -12px
+			margin-top: -8px
 			font-size: 18px
 			font-weight: 300	
 		.phone
@@ -96,5 +96,53 @@ body
 					height: 45px
 					margin-left: -53px
 					margin-top: 0px
+.nav
+	padding-left: 0
+	margin: 0
+	position: relative
+	li
+		display: inline-block	
+		margin-right: 25px
+		font-size: 16px
+		text-decoration: none
+		padding: 10px
+		a
+			color: #282828
+			&:active
+				text-decoration: underline
+		&:hover
+			background-color: #8392a5
+			// border-bottom: 2px $main-color solid
+			a
+				color: #fff
+				text-decoration: none
+			ul
+				display: block
+				li
+					display: block
+					a
+						color: #282828
+	ul
+		display: none
+		background: #fff
+		position: absolute
+		top: 100%
+		margin: 0
+		box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1)
+		border: 1px solid rgba(0,0,0,.1)
+		margin-left: -10px
+		padding: 0
+		li
+			float: none
+			position: relative
+			padding-top: 0px
+			padding-bottom: 0px
+			&:hover
+				background: none
+				border: none
+				a
+					text-decoration: underline
+
+
 
 @import "media" // Всегда в конце
