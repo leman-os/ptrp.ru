@@ -57,4 +57,44 @@ body
 	background-color: $accent
 	color: #fff
 
+.header
+		background-color: $main-color
+		img
+			float: left
+			margin-top: 10px
+			margin-right: 22px
+		h1
+			font-size: 30px
+			font-family: $default-font
+			margin-top: 8px
+			float: left
+			color: #fff
+			margin-bottom: 0
+		h4
+			font-family: $default-font
+			float: left
+			color: #fff
+			margin-top: -12px
+			font-size: 18px
+			font-weight: 300	
+		.phone
+			margin-top: 25px
+			a
+				text-decoration: none
+				color: #fff
+				float: right
+				font-size: 30px
+				font-weight: 300
+				&:hover
+					text-decoration: underline
+				&:before
+					content: ' '
+					position: absolute
+					background: url(../img/ic-ph/phone.png) 0 0 no-repeat
+					background-size: contain
+					width: 45px
+					height: 45px
+					margin-left: -53px
+					margin-top: 0px
+
 @import "media" // Всегда в конце
