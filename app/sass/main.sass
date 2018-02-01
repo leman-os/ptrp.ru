@@ -47,7 +47,7 @@ body
 h2
 	text-align: center
 	font-size: 30px
-	font-weight: 300
+	font-weight: 500
 	margin: 10px 0
 
 .img-responsive
@@ -215,14 +215,69 @@ h2
 		text-align: center
 		margin-top: 10px	
 		margin-bottom: 20px
+	img
+		display: block
+		margin: 0 auto
+		margin: 5px auto
 .gruz
 	h2
 		color: #fff
-		margin-top: 60px
+		margin-bottom: 50px
+		font-weight: 500
 	background: url(../img/ic-ph/skos1.jpg) 0 0 no-repeat
-
-
-
+	background-size: 100% 100%
+	margin-top: 52px
+	padding-bottom: 125px 
+	padding-top: 100px
+	img
+		display: block
+		margin: 0 auto	
+		width: 60px
+	p
+		text-align: center
+		font-size: 24px
+		color: #fafafa
+.rus
+	h2
+		color: #2f5178
+.map
+	background: url(../img/ic-ph/map.jpeg) 0 0 no-repeat
+	height: 700px
+	background-position: center
+	background-size: contain
+.preim 
+	@extend .gruz
+	background: url(../img/ic-ph/skos2.jpg) 0 0 no-repeat
+	background-size: 100% 100%
+	p
+		font-size: 24px
+		font-weight: 300
+	img
+		height: 120px
+		width: auto
+	margin-top: 10px
+.car2 
+	.owl-item 
+		img
+			width: 150px
+			// border-radius: 150px
+			margin: 0 auto
+		text-align: center
+		width: 700px
+		margin: 0 auto
+	margin-top: 30px
+	margin-bottom: 30px
+	.owl-nav
+		position: absolute
+		top: 45px
+		width: 100%
+		background: none
+	.owl-prev
+		position: absolute
+		left: -35px
+	.owl-next
+		position: absolute
+		right: -35px
 
 
 @import "media" // Всегда в конце
